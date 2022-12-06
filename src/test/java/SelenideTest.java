@@ -13,7 +13,6 @@ public class SelenideTest {
 
     @Test
     public void test() {
-        Configuration.holdBrowserOpen = true;
         open("http://localhost:9999");
         $("input[placeholder='Город']").setValue("Владивосток");
         $("input[placeholder='Дата встречи']").setValue("06.12.2022");
