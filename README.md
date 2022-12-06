@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/nf83j51svjphkl0c?svg=true)](https://ci.appveyor.com/project/lapostov/selectors)
+[![Build status](https://ci.appveyor.com/api/projects/status/t3h4u3mq03hd6wr6?svg=true)](https://ci.appveyor.com/project/lapostov/selenide)
