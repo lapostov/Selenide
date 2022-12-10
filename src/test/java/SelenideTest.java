@@ -20,6 +20,8 @@ public class SelenideTest {
 
     }
 
+
+
     @Test
     public void test() {
 
@@ -27,7 +29,7 @@ public class SelenideTest {
 
         open("http://localhost:9999");
         $("input[placeholder='Город']").setValue("Владивосток");
-        
+        $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE);
         $("[data-test-id='date'] input").setValue(planningDate);
         $("input[name='name']").setValue("Александр Сергеевич");
         $("input[name='phone']").setValue("+79271620864");
